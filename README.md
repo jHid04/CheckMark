@@ -1,7 +1,12 @@
-# README
+# CheckMark
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to CheckMark, the book club app.
+
+## Technology 
+- This app was built using React on Rails with Ruby Version 2.7.3
+
+
+<!-- Welcome to CheckMark, the book club app.
 
 Things you may want to cover:
 
@@ -21,4 +26,4 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* ... -->
