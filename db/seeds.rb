@@ -16,22 +16,12 @@ memberships_1 = Membership.create(user_id: user_1.id, club_id: club_1.id)
 memberships_2 = Membership.create(user_id: user_2.id, club_id: club_1.id) 
 memberships_3 = Membership.create(user_id: user_3.id, club_id: club_1.id) 
 
-book_1 = Book.create(title:"Artemis", author:"Andy Weir", description:"The bestselling author of The Martian returns with an irresistible new near-future thriller—a heist story set on the moon.
+book_1 = Book.create(title:"Artemis", author:"Andy Weir", description:"Jazz Bashara is a criminal.
 
-Jasmine Bashara never signed up to be a hero. She just wanted to get rich.
- 
-Not crazy, eccentric-billionaire rich, like many of the visitors to her hometown of Artemis, humanity’s first and only lunar colony. Just rich enough to move out of her coffin-sized apartment and eat something better than flavored algae. Rich enough to pay off a debt she’s owed for a long time.
- 
-So when a chance at a huge score finally comes her way, Jazz can’t say no. Sure, it requires her to graduate from small-time smuggler to full-on criminal mastermind. And it calls for a particular combination of cunning, technical skills, and large explosions—not to mention sheer brazen swagger. But Jazz has never run into a challenge her intellect can’t handle, and she figures she’s got the ‘swagger’ part down.
- 
-The trouble is, engineering the perfect crime is just the start of Jazz’s problems. Because her little heist is about to land her in the middle of a conspiracy for control of Artemis itself.
- 
-Trapped between competing forces, pursued by a killer and the law alike, even Jazz has to admit she’s in way over her head. She’ll have to hatch a truly spectacular scheme to have a chance at staying alive and saving her city.
- 
-Jazz is no hero, but she is a very good criminal.
- 
-That’ll have to do.
- 
-Propelled by its heroine’s wisecracking voice, set in a city that’s at once stunningly imagined and intimately familiar, and brimming over with clever problem-solving and heist-y fun, Artemis is another irresistible brew of science, suspense, and humor from #1 bestselling author Andy Weir.")
+Well, sort of. Life on Artemis, the first and only city on the moon, is tough if you're not a rich tourist or an eccentric billionaire. So smuggling in the occasional harmless bit of contraband barely counts, right? Not when you've got debts to pay and your job as a porter barely covers the rent.
+
+Everything changes when Jazz sees the chance to commit the perfect crime, with a reward too lucrative to turn down. But pulling off the impossible is just the start of her problems, as she learns that she's stepped square into a conspiracy for control of Artemis itself—and that now, her only chance at survival lies in a gambit even riskier than the first.")
 
 book_status_1 = BookStatus.create(status:"Currently Reading",book_id:book_1.id,user_id: user_3.id)
+
+discussion_1 = Discussion.create(title:"Loving Jazz as a character", description: "Jazz is great and funny character and really engaging", user_id: user_3.id, club_id: club_1.id)
