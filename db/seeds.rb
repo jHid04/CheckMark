@@ -25,3 +25,5 @@ Everything changes when Jazz sees the chance to commit the perfect crime, with a
 book_status_1 = BookStatus.create(status:"Currently Reading",book_id:book_1.id,user_id: user_3.id)
 
 discussion_1 = Discussion.create(title:"Loving Jazz as a character", description: "Jazz is great and funny character and really engaging", user_id: user_3.id, club_id: club_1.id)
+
+comment_1 = Comment.create(comment: "I disagree. Jazz is a boring character and the writing is really weak", user_id: user_1.id, discussion_id: discussion_1.id)
