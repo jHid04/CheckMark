@@ -15,3 +15,43 @@
  *= require foundation_and_overrides
 
  */
+@import 'colors';
+
+.top-bar {
+  background-color: #fefefe;
+  padding: 1rem;
+  padding-bottom: 1px;
+  ul {
+    background-color: #fefefe;
+  }
+}
+
+h1 {
+  a {
+    font-family: 'Allura';
+    color: $prussian-blue;
+  }
+ }
+
+section {
+  li{
+    list-style: none;
+    background-color: #fefefe;
+    display: inline;
+  }
+  a{
+    color: $prussian-blue;
+    padding: 10px 10px;
+  }
+  .sign-up{
+    background-color: $ut-orange;
+    border: $ut-orange;
+    border-radius: 30px;
+    padding: 10px 15px;
+    a{
+      color: #fefefe;
+    }
+  }
+}
+
+
