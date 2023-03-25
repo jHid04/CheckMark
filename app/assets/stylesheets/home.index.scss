@@ -1,5 +1,24 @@
 @import 'colors';
 
-p{
-  background-color: $atomic-tangerine;
+.landing-phrase{
+  background-color: $sandy-brown;
+  h5{
+    text-align: center;
+    color: $prussian-blue;
+  }
+  .join-club{
+    h6{
+      text-align: center;
+      background-color: $ut-orange;
+      width: 20%;
+      margin: auto;
+      border: $ut-orange;
+      border-radius: 30px;
+      padding: 10px ;
+      a{
+        color: #fefefe;
+        text-transform: uppercase;
+      }
+    }
+  }
 }
