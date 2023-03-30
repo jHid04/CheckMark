@@ -1,62 +1,71 @@
 @import 'colors';
-
-.signin-container {
-  .login-box{
-    background-color: $wild-sand;
-    border: $sandy-brown;
-    border-radius: .5rem;
-    width: 40%;
-    text-align: center;
-
-    h3{
-      color: $prussian-blue
-    }
-    a {
-      color: $prussian-blue;
-    }
+.login-page {
+  .signin-container {
+    float: left;
+    margin-left: 2rem;
+    .login-box{
+      background-color: $wild-sand;
+      border: $sandy-brown;
+      text-align: center;
+      padding: 1rem;
+      margin-left: 5rem;
+      height: 26.7rem;
   
-    label{
-      color: $prussian-blue;
+      h3 {
+        color: $prussian-blue
+      }
+      a {
+        color: $prussian-blue;
+      }
+    
+      label {
+        color: $prussian-blue;
+      }
+    
+      input:not(input[type='checkbox']):not(input[type='submit']){
+        display: inline;
+        box-sizing: border-box;
+        width: 80%;
+        height: 2.4375rem;
+        margin: 0 0 1rem;
+        padding: 0.5rem;
+        border: 1px solid #cacaca;
+        border-radius: 1rem;
+        background-color: #fefefe;
+        box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.5;
+        color: #0a0a0a;
+        transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+        appearance: none;
+      }
+      .login-bttn{
+        display: inline;
+        box-sizing: border-box;
+        width: 80%;
+        height: 2.4375rem;
+        margin: 0 0 1rem;
+        padding: 0.5rem;
+        border: 1px solid $prussian-blue;
+        border-radius: 1rem;
+        background-color: $prussian-blue;
+        box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: normal;
+        line-height: 1.5;
+        color: #fefefe;
+        transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+        appearance: none;
+        text-transform: uppercase;
+      }
     }
+  }
   
-    input:not(input[type='checkbox']):not(input[type='submit']){
-      display: inline;
-      box-sizing: border-box;
-      width: 80%;
-      height: 2.4375rem;
-      margin: 0 0 1rem;
-      padding: 0.5rem;
-      border: 1px solid #cacaca;
-      border-radius: 1rem;
-      background-color: #fefefe;
-      box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-      font-family: inherit;
-      font-size: 1rem;
-      font-weight: normal;
-      line-height: 1.5;
-      color: #0a0a0a;
-      transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
-      appearance: none;
-    }
-    .login-bttn{
-      display: inline;
-      box-sizing: border-box;
-      width: 80%;
-      height: 2.4375rem;
-      margin: 0 0 1rem;
-      padding: 0.5rem;
-      border: 1px solid $prussian-blue;
-      border-radius: 1rem;
-      background-color: $prussian-blue;
-      box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
-      font-family: inherit;
-      font-size: 1rem;
-      font-weight: normal;
-      line-height: 1.5;
-      color: #fefefe;
-      transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
-      appearance: none;
-      text-transform: uppercase;
-    }
+  .left-container {
+    float: left;
+    width: 50%;
   }
 }
