@@ -85,6 +85,9 @@
       label {
         color: $prussian-blue;
       }
+      em {
+        color: $prussian-blue;
+      }
       input:not(input[type='submit']){
         display: inline;
         box-sizing: border-box;
