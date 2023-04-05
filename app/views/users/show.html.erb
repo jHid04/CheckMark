@@ -1,0 +1,15 @@
+<div>
+  <h3>
+    Welcome, <%= @user.first_name %>
+  </h3>
+  <div>
+    <h4>
+      Here are your books:
+    </h4>
+    <ul>
+      <% @books.each do |book|%>
+        <%= book.title %> 
+      <% end %>
+    </ul>
+  </div>
+</div>

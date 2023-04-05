@@ -16,11 +16,7 @@ memberships_1 = Membership.create(user_id: user_1.id, club_id: club_1.id)
 memberships_2 = Membership.create(user_id: user_2.id, club_id: club_1.id) 
 memberships_3 = Membership.create(user_id: user_3.id, club_id: club_1.id) 
 
-book_1 = Book.create(title:"Artemis", author:"Andy Weir", description:"Jazz Bashara is a criminal.
-
-Well, sort of. Life on Artemis, the first and only city on the moon, is tough if you're not a rich tourist or an eccentric billionaire. So smuggling in the occasional harmless bit of contraband barely counts, right? Not when you've got debts to pay and your job as a porter barely covers the rent.
-
-Everything changes when Jazz sees the chance to commit the perfect crime, with a reward too lucrative to turn down. But pulling off the impossible is just the start of her problems, as she learns that she's stepped square into a conspiracy for control of Artemis itself—and that now, her only chance at survival lies in a gambit even riskier than the first.")
+book_1 = Book.create(title:"Artemis", author:"Andy Weir", genre: "Science Fiction", description:"Jazz Bashara is a criminal./nWell, sort of. Life on Artemis, the first and only city on the moon, is tough if you're not a rich tourist or an eccentric billionaire. So smuggling in the occasional harmless bit of contraband barely counts, right? Not when you've got debts to pay and your job as a porter barely covers the rent./nEverything changes when Jazz sees the chance to commit the perfect crime, with a reward too lucrative to turn down. But pulling off the impossible is just the start of her problems, as she learns that she's stepped square into a conspiracy for control of Artemis itself—and that now, her only chance at survival lies in a gambit even riskier than the first.")
 
 book_status_1 = BookStatus.create(status:"Currently Reading",book_id:book_1.id,user_id: user_3.id)
 
